@@ -1,0 +1,11 @@
+Name:		fgci-meta-VARIANT
+Version:	VERSION
+Release:	RELEASE%{?dist}
+Summary:	Metapackage for FGCI VARIANT nodes
+
+Group:		other/fgci
+License:	GPL
+URL:		http://idris.fgi.csc.fi/packages/
+Source0:	fgci-meta-VARIANT-VERSION.tar.gz
+
+BuildRequires:	bash	

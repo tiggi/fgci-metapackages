@@ -1,0 +1,21 @@
+#!/bin/bash
+source config
+
+for a in ${VARIANTS[*]} ; do 
+	echo Templating $a
+	(sed -e "s/VARIANT/$a/g" -e "s/VERSION/$VERSION/" -e "s/RELEASE/$RELEASE/" < template.top > temp.spec)
+	(cat all.packages >> temp.spec)
+	if [ -e $a.packages ]; then
+		(cat $a >> temp.spec)
+	fi	
+	(sed -e "s/VARIANT/$a/g" -e "s/VERSION/$VERSION/" -e "s/RELEASE/$RELEASE/" < template.bottom >> temp.spec )
+	(cat changelog >> temp.spec )
+	mkdir -p fgci-meta-$a-$VERSION
+	cp configure fgci-meta-$a-$VERSION/
+	mv -f temp.spec fgci-meta-$a-$VERSION/$a.spec	
+	tar zcf fgci-meta-$a-$VERSION.tar.gz fgci-meta-$a-$VERSION/
+	rm -rf fgci-meta-$a-$VERSION
+	rpmbuild -ta fgci-meta-$a-$VERSION.tar.gz
+done
+
+

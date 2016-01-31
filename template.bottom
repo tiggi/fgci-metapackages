@@ -1,0 +1,23 @@
+
+%description
+Metapackage for FGCI VARIANT nodes. This package ensures synced rpms betweend the clusters.
+
+
+%prep
+%setup -q
+
+
+%build
+%configure
+
+
+%install
+/bin/true
+
+
+%files
+%doc
+
+
+
+%changelog
