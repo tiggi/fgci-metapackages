@@ -1,0 +1,2 @@
+Requires:       netcdf
+Requires:       hdf5-openmpi
