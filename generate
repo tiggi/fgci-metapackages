@@ -15,7 +15,10 @@ for a in ${VARIANTS[*]} ; do
 	mv -f temp.spec fgci-meta-$a-$VERSION/$a.spec	
 	tar zcf fgci-meta-$a-$VERSION.tar.gz fgci-meta-$a-$VERSION/
 	rm -rf fgci-meta-$a-$VERSION
-	rpmbuild -ta fgci-meta-$a-$VERSION.tar.gz
+	rpmbuild --quiet -ta fgci-meta-$a-$VERSION.tar.gz
 done
+echo End result:
+echo  ~/rpmbuild/RPMS/noarch/fgci-meta-*-$VERSION-$RELEASE.*.noarch.rpm
+
 
 

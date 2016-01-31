@@ -14,6 +14,7 @@ that can be immediately included into a RPM .spec file.
 
 For a new release, edit the file "config" to bump the version and/or release version. 
 Also update the "changelog" file with the changes that have been done.
+Remeber that the rpm changelog is newest first.
 
 
 

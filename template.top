@@ -2,6 +2,7 @@ Name:		fgci-meta-VARIANT
 Version:	VERSION
 Release:	RELEASE%{?dist}
 Summary:	Metapackage for FGCI VARIANT nodes
+BuildArch:	noarch
 
 Group:		other/fgci
 License:	GPL
