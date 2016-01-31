@@ -3,6 +3,8 @@ Meta-rpms for the FGCI nodes.
 
 all.packages are common packages that goes into all variants.
 
+Current variants: login grid install admin compute
+
 Generate ready .rpms using the ./generate script.
 
 Each .packages file should only contain lines like:

@@ -1,2 +1,3 @@
 Requires:       netcdf
 Requires:       hdf5-openmpi
+Requires:	java-1.8.0-openjdk-headless
