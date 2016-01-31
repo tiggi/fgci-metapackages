@@ -1,0 +1,3 @@
+Requires: telnet
+Requires: openldap-clients
+

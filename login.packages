@@ -1,0 +1,3 @@
+Requires: nordugrid-arc-client
+Requires: nordugrid-arc-plugins-needed
+Requires: nordugrid-arc-plugins-globus

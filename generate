@@ -6,7 +6,7 @@ for a in ${VARIANTS[*]} ; do
 	(sed -e "s/VARIANT/$a/g" -e "s/VERSION/$VERSION/" -e "s/RELEASE/$RELEASE/" < template.top > temp.spec)
 	(cat all.packages >> temp.spec)
 	if [ -e $a.packages ]; then
-		(cat $a >> temp.spec)
+		(cat $a.packages >> temp.spec)
 	fi	
 	(sed -e "s/VARIANT/$a/g" -e "s/VERSION/$VERSION/" -e "s/RELEASE/$RELEASE/" < template.bottom >> temp.spec )
 	(cat changelog >> temp.spec )
