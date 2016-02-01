@@ -1,3 +1,5 @@
+* Mon Feb 1 2016 Ulf Tigerstedt <ulf.tigertedt@csc.fi> 1.0-3
+- Added java, flex, yacc and bc.
 * Mon Feb 1 2016 Ulf Tigerstedt <ulf.tigertedt@csc.fi> 1.0-2
 - Added bzip2,xz,pbzip2 to all.packages
 * Sun Jan 31 2016 Ulf Tigerstedt <ulf.tigerstedt@csc.fi> 1.0-1

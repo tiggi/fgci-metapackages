@@ -1,4 +1,5 @@
 Requires: nordugrid-arc-client
 Requires: nordugrid-arc-plugins-needed
 Requires: nordugrid-arc-plugins-globus
-Requires: java-1.8.0-openjdk-headless
+Requires: byacc
+Requires: flex
