@@ -1,2 +1,6 @@
 Requires: bash
 Requires: bind-utils
+Requires: lbzip2
+Requires: bzip2
+Requires: xz
+Requires: pbzip2
