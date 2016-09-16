@@ -2,3 +2,4 @@ Requires:       netcdf
 Requires:       hdf5-openmpi
 Requires:       byacc
 Requires:       flex
+Requires:	csh
