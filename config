@@ -1,5 +1,5 @@
 # this file is sourced from the generate script.
 VERSION=1.0
-RELEASE=4
+RELEASE=5
 VARIANTS=(login grid install admin compute)
 
