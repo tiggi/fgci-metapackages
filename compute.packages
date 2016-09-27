@@ -3,3 +3,5 @@ Requires:       hdf5-openmpi
 Requires:       byacc
 Requires:       flex
 Requires:	csh
+Requires: 	openmpi
+Requires: 	openmpi-devel
