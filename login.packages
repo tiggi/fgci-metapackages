@@ -5,3 +5,7 @@ Requires: byacc
 Requires: flex
 Requires: openmpi
 Requires: openmpi-devel
+Requires: python-networkx
+Requires: graphviz-python
+Requires: scipy
+Requires: numpy
