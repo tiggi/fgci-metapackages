@@ -1,5 +1,3 @@
 Requires: telnet
 Requires: openldap-clients
 Requires: csh
-Requires: openmpi
-Requires: openmpi-devel
